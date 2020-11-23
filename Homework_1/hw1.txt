@@ -1,0 +1,41 @@
+Ian Conceicao
+CS 131
+Professor Eggert
+Monday, January 13 2019
+
+Assessment of Homework 1 - Fixpoints and Grammar Filters
+
+1.
+Solved with the use of a helper function that given an element and
+a list, checks if the element is in the list. I wrote that helper with
+use of List.exists(), but it was tricky figuring out how to use the
+predicate part of that module function.
+
+The subset function takes off an element of a, checks if it is in
+b, and if repeats.  If its not in b, return false.  If a is empty,
+return true.
+
+2.
+Solved by seeing if sets a and b are subsets of each other.
+While this may not be the most efficient way, it is simple.
+
+3. I solved problem 3 by return b if a is empty.  If a has elements,
+take the left element and add it into b if its not already in b.
+
+4.  I solved problem 4 by creating a recursive helper function
+that had a third parameter, the intersection list that we
+are returning.  I recursively go through a, and add the element
+to the intersection if it is in b.
+
+5. I solved problem 5 by using a recursive helper function.  The base
+case is if a is empty and I added a to c if a is not in b.
+
+6. I checked if f x is equivalent to x, and if it was, I returned x.
+If it was not, I recursively called the same function for f(x) as x.
+
+7. I solved problem 7 by starting small and working up. For example,
+my first function takes a rule and finds the right and left side of it.
+Then my next function takes a right side and finds all the next nonterminal
+symbols.  I continue until I can recursively find all symbols that
+are reachable.  With those symbols I can filter out rules that do not
+have those symbols on the left side.
