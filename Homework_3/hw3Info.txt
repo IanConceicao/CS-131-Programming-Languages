@@ -1,0 +1,27 @@
+---------Server 9---------
+
+Java Version:
+	Java HotSpot(TM) 64-Bit Server VM (build 13.0.2+8, mixed mode, sharing)
+
+---CPU---
+Model: 62
+16 proccessors:
+CPU Model: Intel(R) Xeon(R) CPU E5-2640 v2 @ 2.00GHz
+cache size: 20480 KB
+
+--MEM--
+MemTotal: 65755720 kB
+
+
+---------Server 6----------
+Java Version:
+	Java HotSpot(TM) 64-Bit Server VM (build 13.0.2+8, mixed mode, sharing)
+
+--CPU-- 
+Model: 44
+16 processors:
+model name: Intel(R) Xeon(R) CPU E5620  @ 2.40GHz
+cache size: 12288 KB
+
+---MEM---
+MemTotal: 65794548 kB
